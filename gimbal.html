@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Martin's Portfolio | Gimbal</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="specialpages/common.js"></script>
+
+    <link rel="stylesheet" href="specialpages/common.css">
+    
+  </head>
+
+
+    <header>
+        <navbar class="cantSelect">
+            <div class="responsivepart">
+                  <a class="logo">Martin's Portfolio</a>
+
+                  <button class="navbarbutton"><i class="fa fa-bars"></i></button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Hobbies/Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="academics.html">Academics/Awards</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </navbar>
+    </header>
+  
+
+    <body>
+
+        <div class="imgwrapper" class="cantSelect">
+            <img src="images/gimbal/standardgimbalbackground.jpg" id="bigimg">
+                <div class="titletext">
+                    <h1>3-Axis Camera Stabilizing Gimbal</h1>
+                    <h1 id="secondtitle">Record buttery-smooth video, even with shaky hands.</h1>
+                </div>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>The Goal</h1>
+            <p id="overviewtext">At some point in my life, I got interested in video drones. Although I couldn't own one, I noticed while watching Youtube videos that, during flight, the wind would make the drones shake a lot but the video would stay smooth and level. As it turns out, drones have small gimbals attached at the bottom that staiblize the camera. It seemed almost like magic, so I decided to see if I could build my own standalone gimbal that I could use with my phone to film.</p>
+            <p class="listtitle">I had three main criteria I wanted to meet:</p>
+            <ol class="list">
+                <li>Stabilize and iPhone 7 or other similar sized cell phones.</li>
+                <li>Run completely off of battery power.</li>
+                <li>Be under 60$.</li>
+            </ol>
+            <p id="overviewtext2">Unfortunately, I have very few photos from the build process of the gimbal and taking it apart to show the parts would put it seriously off balance.</p>
+          </div>
+        </div>
+
+        <div class="slideshowWrapper">
+            <h1>Photos</h1>
+            <div class="slideshow">
+                <div class="inner-box">
+                    <div class="slide-arrows">
+                        <img src="images/slidearrow/left.png" class="prev"/>
+                        <img src="images/slidearrow/right.png" class="next"/>
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide current"><img src="images/gimbal/gimbalcase.jpg" />
+                            <p>Here's the case that I use to transport the gimbal. It was made out of a rifle case that I bought specifically for this project.</p>
+                        </div>
+                        
+                        <div class="slide"><img src="images/gimbal/insidegimbalcase.jpg" />
+                            <p>In the case  there's a Lithium Polymer battery, the charger, the gimbal itself with a detachable handle, and a 4th axis stabilizing arm.</p>
+                        </div>
+
+                        <div class="slide"><img src="images/gimbal/4thaxisarm.jpg" />
+                            <p>A closer look at 4th axis arm. It using the arms and springs from an old lamp to reduce vertical vibrations when walking.</p>
+                        </div>
+
+                        <div class="slide"><img src="images/gimbal/4thaxis.jpg" />
+                            <p>The gimbal with the 4th axis added on to it.</p>
+                        </div>
+
+                        <div class="slide"><img src="images/gimbal/gimbalsoftware.png" />
+                            <p>This is the software used to program the gimbal and do things like adjust PID settings, calibrate the accelerometer and gyroscope, and more. The control board is designed and programmed by OlliW and is called the "Storm32" controller. </p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- <div class="controls">
+                    <ul>
+                      <li class="circle full"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                    </ul>
+                  </div>-->
+                
+                <div class="thumbs"></div>
+            </div>  
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>COMIMG SOON - Video Demo</h1>
+            <!--<p id="overviewtext">Photos alone cannot capture how mesmerizing this gimbal is. So, here's a video!</p>-->
+          </div>
+        </div>
+
+
+
+
+
+
+    </body>
+</html>

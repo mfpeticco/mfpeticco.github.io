@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Martin's Portfolio | Internship</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="internship/internship.js"></script>
+
+    <link rel="stylesheet" href="internship/internship.css">
+    
+  </head>
+
+
+    <header>
+        <navbar class="cantSelect">
+            <div class="responsivepart">
+                  <a class="logo">Martin's Portfolio</a>
+
+                  <button class="navbarbutton"><i class="fa fa-bars"></i></button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Hobbies/Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="academics.html">Academics/Awards</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </navbar>
+    </header>
+  
+
+    <body>
+
+        <div class="imgwrapper" class="cantSelect">
+            <img src="images/internship/building705.jpg" id="bigimg">
+                <div class="titletext">
+                    <h1>Internship at IBM</h1>
+                    <h1 id="secondtitle">A summary of my 7-week summer internship at IBM!</h1>
+                </div>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>A Brief Overview</h1>
+            <p id="overviewtext">Starting on July 2018, I took a 7-week-long internship at IBM Poughkeepsie. I worked in buildng 706 in the SSD/Flash/Memory Development lab using 3D Printing, CAD Design, and electronic circuits to aid in the testing of SSD/Flash/Memory modules. I worked on various projects throughout my internship that would each, in some form, be used to improve the testing method of these modules. During my time there, I picked up many technical skills and learned to work in a true workplace environment. Along the way, I refined many professional "soft" skills in addition to meeting many great people along the way who taught me many things. At the end of it all, I gave a brief 6 minute presentation and won the Inventor/Innovation award. <a href="https://drive.google.com/open?id=15Tcw2N8rrAtiuUXRqt8HdeZy2ifKCd6FKBSbE3f-HHI" target="_blank" class="evaluation">Here's a link to my final evaluation</a> from my supervisors Tsung Yeung and Steven Wilson (Opens in new tab).</p>
+          </div>
+        </div>
+
+
+        <div class="slideshowWrapper">
+            <h1>My Experience</h1>
+            <div class="slideshow">
+                <div class="inner-box">
+                    <div class="slide-arrows">
+                        <img src="images/slidearrow/left.png" class="prev"/>
+                        <img src="images/slidearrow/right.png" class="next"/>
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide current"><p>I worked in building 706, where I used 3D Printing to aid the testing and development of SSD's, flash, and memory.</p>
+                            <img src="images/internship/building705resize.jpg" />
+                        </div>
+                        <div class="slide"><img src="images/internship/building705back.jpg"/>
+                            <p>The first day of the internship consisted of setting up our laptops and becoming familiar with our offices.</p>
+                        </div>                        
+                        <div class="slide"><img src="images/internship/tsungsteve.jpg"/>
+                            <p>I worked with my supervisors Tsung Yeung (Left) and Steven Wilson (Right). My office was in the flash development lab.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/printerupgrade.jpg"/>
+                            <p>One of the first things I did was to use the Printrbot 3D printers to print upgrades for themselves (better fan shroud, better cooler, strain relief)</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/driveblock.jpg"/>
+                            <p>My first major project was to improve the design of a drive block fixture that allowed the use of a cable instead of an actual drive for testing.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/driveblockfusion.png"/>
+                            <p>I used Autodesk Fusion 360 for my CAD 3D Modelling. Here's the 3D model file (STL Format). The projected design time was 2 weeks; The model was done by the end of the first week.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/driveblockcura.png"/>
+                            <p>In order to actually print the 3D Models, I used a slicer program called Cura, by Ultimaker. A slicing program converts the 3D STL file to machine language that the 3D printer can actually understand.</p>
+                        </div>                        
+                        <div class="slide"><img src="images/internship/drivecooler.jpg"/>
+                            <p>My next major project was a cooling fixture for Solid State Drive (SSD) testing. This was important as it is best practice to keep computer components at an appropriate temperature.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/oldcooling.jpg"/>
+                            <p>For some context, here was the previous cooling setup.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/results.png"/>
+                            <p>Here's a graph showing the difference between the old and new cooling setup.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/relayboard.jpg"/>
+                            <p>Eventually I branched off into electronics. I learned how to write schematics and apply Ohm's law calculations to create a relay box that could power on/off two power supplies indepentantly.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/relaybox.jpg"/>
+                            <p>I also designed and 3D printed a casing for it.</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/pcicooler.jpg"/>
+                            <p>One of my later projects was an overhead cooler for PCIe storage drives. This quite the design challenge as the cooler had to not interfere with the insertion and removal of the drive, not interfere with other parts of the case, and be printed in small parts. It turned out great!</p>
+                        </div>
+                        <div class="slide"><img src="images/internship/presentation.png"/>
+                            <p>On the final day of the internship, I gave a 6-minute presentation discussing my experience and what I learned. Shortly after, I was given the Inventor/Innovation Award.</p>
+                        </div>
+                    </div>
+                </div>
+                 <!-- <div class="controls">
+                    <ul>
+                      <li class="circle full"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                    </ul>
+                  </div>-->
+                <div class="thumbs"></div>
+            </div>  
+        </div>
+        
+
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>Inventor/Innovation Award</h1>
+            <p id="awardtext">This is the award that my supervisors nominated me for at the end of the internship. It rewards the use of problem solving, designing, and fabricating to improve efficiency in the workplace.</p>
+            <img id="ibmaward" src="images/awards/ibmaward.jpg">
+          </div>
+        </div>
+
+
+
+    </body>
+</html>

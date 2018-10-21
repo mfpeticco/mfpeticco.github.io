@@ -1,0 +1,149 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Martin's Portfolio | Portable Wii</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="specialpages/common.js"></script>
+
+    <link rel="stylesheet" href="specialpages/common.css">
+    
+  </head>
+
+
+    <header>
+        <navbar class="cantSelect">
+            <div class="responsivepart">
+                  <a class="logo">Martin's Portfolio</a>
+
+                  <button class="navbarbutton"><i class="fa fa-bars"></i></button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Hobbies/Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="academics.html">Academics/Awards</a></li>
+                <li><a href="internship.html">Internship</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </navbar>
+    </header>
+  
+
+    <body>
+
+        <div class="imgwrapper" class="cantSelect">
+            <img src="images/wii/portablewiibanner.jpg" id="bigimg">
+                <div class="titletext">
+                    <h1>Portable Wii Project</h1>
+                    <h1 id="secondtitle">My most ambitious engineering project to date.</h1>
+                </div>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>The Goal</h1>
+            <p id="overviewtext">The Nintendo Wii is the #3 best selling game console of all time, selling over 100 million units. It had some of the most memorable games of any video game console, it was backwards compatabile with Nintendo's previous game console, the GameCube (meaning it could play GameCube games without any extra hardware), and it was both reliable and relatively compact. Unfortunately, it had to live tethered to your living room TV. Noticing this, I decided to make a portable version.</p>
+            <p class="listtitle">I had six main criteria I wanted to meet:</p>
+            <ol class="list">
+                <li>Have a built in display, measuring at least 12 inches diagonally, along with stereo speakers.</li>
+                <li>Add some audio/video output jacks so that it can still be used with TV's.</li>
+                <li>Remain fully compatible with motion controls.</li>
+                <li>Run off of just a single cable, reducing clutter.</li>
+                <li>Remain fully backwards compatible with the GameCube by retaining legacy ports.</li>
+                <li>Be no thicker than 1.5 inches, thinner than the original wii while cramming tons of other hardware.</li>
+            </ol>
+            <p id="overviewtext2">With the end goal in mind, it was time to get to work.</p>
+          </div>
+        </div>
+
+
+        <div class="slideshowWrapper">
+            <h1>Build Log</h1>
+            <div class="slideshow">
+                <div class="inner-box">
+                    <div class="slide-arrows">
+                        <img src="images/slidearrow/left.png" class="prev"/>
+                        <img src="images/slidearrow/right.png" class="next"/>
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide current"><img src="images/wii/fullset.jpg" />
+                            <p>This is what I started out with. I was going to have to figure how to fit all of this (along with speakers, a display, display drivers, and other miscellaneous hardware) into a form factor somewhat resembling a tablet.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/oldboard.jpg"/>
+                            <p>The Wii motherboard in all its glory. At this point, I had more questions than I had answers: How am I going to cool this thing? And how am I going to manage to get this thing as small as possible?</p>
+                        </div>                        
+                        <div class="slide"><img src="images/wii/newboard.jpg"/>
+                            <p>I had to omit the disk drive due to it producing too much heat and drawing too much power. Unfortunately, the Wii always checks for the disk drive when it starts up, so I had to leave the disk drive board on. Here, you can also see many ports removed and sliced in half since they were too tall.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/heatsink.jpg"/>
+                            <p>The heat sink on the Wii is rather tall, and frankly overkill for the processers it uses. I guess this is why it was such a reliable console. Anyways, using a vice and some pliers, I flattened it down.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/firsttest.jpg"/>
+                            <p>After many modifications, I had to test it out to make sure I hadn't damaged anything. Turns out, it works! This was also a good time to test out the TV I was going to use. (fun fact, this TV was originally used in a prison, that's why it's transparent)</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/tv.jpg"/>
+                            <p>After disassembling the TV and gutting it for parts, I realized that I should probably find a way to keep these controls. That's one more thing I'm going to have to fit in.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/sensorbar.jpg"/>
+                            <p>In order to retain the Wii remote's pointing functionality, I would have to fit the sensor bar in too. The bar actually doesn't "sense" anything, it's just some infrared lights that the Wii remote reads using an infrared camera at the tip.</p>
+                        </div>                        
+                        <div class="slide"><img src="images/wii/electronicstest.jpg"/>
+                            <p>Testig all of the electronics in their most barebones configurations. Here we have the video, audio, Wii power, display power, the display driver, display controls, and the sensor bar all hooked up.</p>
+                        </div>  
+                        <div class="slide"><img src="images/wii/wiilayoutcropped.jpg"/>
+                            <p>After getting some other miscellaneous electronics functions done (wiring everything together, adding fans, a video output and switcher, and a power/pairing button) it was time to decide on a layout. This is what I came up with.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/cadmodel.png"/>
+                            <p>Finally, it was time to design a casing. This CAD model shows the main construction philosophy: 6 pieces on the edge holding everything together like a sandwich. The display and some acylic act as the bread, and the electronics would be like the meat.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/casingpart.jpg"/>
+                            <p>The most complicated of the 6 pieces needed to build the casing. You can see holes for the fans, video output, video switch, power, and USB ports. In the background, you see all the electronics eagerly waiting for the casing to be done.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/wiismallimg.jpg"/>
+                            <p>The finished product, as it stands now. The culmination of hours upon hours of research, lots of trial and error, failure after failure, and a total of about 60$ in materials. Having something go from a far-fetched idea in your mind to a tangible, working product is one of the best feelings in the world, and is the main reason why I love engineering so much.</p>
+                        </div>
+                        <div class="slide"><img src="images/wii/thickness.jpg"/>
+                            <p>Remember how my goal was to get the Wii no more than 1.5 inches thick? It actually ended up being about 1.2 inches thick. The original wii is 1.73 inches thick, so I managed to cut the thickness down by a little over 30%.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                 <!-- <div class="controls">
+                    <ul>
+                      <li class="circle full"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                    </ul>
+                  </div>-->
+                
+                <div class="thumbs"></div>
+            </div>  
+        </div>
+
+
+
+    </body>
+</html>
