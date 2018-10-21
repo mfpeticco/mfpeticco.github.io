@@ -391,7 +391,7 @@ td p {
 
 @media screen and (min-width: 940px) and (max-height: 650px) {
   .contactWrapper {
-    overflow: scroll;
+    overflow: visible;
   }
 
   .column {
@@ -403,9 +403,9 @@ td p {
 @media screen and (max-width: 940px) {
   .contactWrapper {
     flex-flow: column;
-    overflow: scroll;
+    overflow: visible;
     align-items: center;
-    
+    -webkit-overflow-scrolling: touch;
   }
 
   .boxnorm {
