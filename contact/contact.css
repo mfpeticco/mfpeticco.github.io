@@ -405,7 +405,7 @@ td p {
     flex-flow: column;
     overflow: visible;
     align-items: center;
-    overflow-x: hidden;
+    
   }
 
   .boxnorm {
