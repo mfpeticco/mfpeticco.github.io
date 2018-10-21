@@ -3,9 +3,13 @@
   padding:0;
 }
 
+html {
+    height: 100%;
+}
 
 body {
   overflow: visible;
+   height: 100%;
 }
 
 header{
