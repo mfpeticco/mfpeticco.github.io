@@ -139,7 +139,10 @@ navbar ul li > a:hover:before {
 }
 
 /*END OF NAVBAR CODE */
-
+.classes {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
 
 .imgwrapper{
   overflow: hidden;
@@ -342,7 +345,7 @@ navbar ul li > a:hover:before {
 }
   
 .inner-box li{
-    padding: 0px 5px;
+    padding: 0px 7px;
   }
 
 .slides {
