@@ -174,12 +174,12 @@ img {
   width: 100%;
   height: auto;
   display: block;
-
+  filter: brightness(80%)
 }
 
 #instruction {
   font-family: "IBM Plex Sans", sans-serif;
-  font-size: 35px;
+  font-size: 24px;
   color: #FFF;
   text-shadow:
 		-2px -2px 0 #000,

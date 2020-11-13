@@ -188,6 +188,10 @@ td p {
   width: 40%;
 }
 
+.resumeicon {
+  height: 140px;
+  padding-bottom: 20px;
+}
 
 /*form*/
 .formWrapper {
