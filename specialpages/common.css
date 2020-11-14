@@ -183,7 +183,12 @@ navbar ul li > a:hover:before {
   -ms-filter: brightness(70%);
 }
 
-
+#dalekimg {
+  height: 700px;
+  width: 100%;
+  object-position: 0% 10%;
+  object-fit: cover;
+}
 
 
 /* rows */ 
