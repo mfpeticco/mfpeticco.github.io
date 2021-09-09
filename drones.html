@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Martin's Portfolio | Drones</title>
+    <link rel="icon" href="images/favicon.png">
+    
+    <!-- Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="specialpages/common.js"></script>
+
+    <link rel="stylesheet" href="specialpages/common.css">
+    
+  </head>
+
+
+    <header>
+        <navbar class="cantSelect">
+            <div class="responsivepart">
+                  <a class="logo">Martin's Portfolio</a>
+
+                  <button class="navbarbutton"><i class="fa fa-bars"></i></button>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Hobbies/Projects</a></li>
+                <li><a href="activities.html">Activities</a></li>
+                <li><a href="academics.html">Academics/Awards</a></li>
+                <li><a href="internship.html">Internships</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </navbar>
+    </header>
+  
+
+    <body>
+
+        <div class="imgwrapper" class="cantSelect">
+            <img src="images/drones/phonedronebanner.jpg" id="bigimg">
+                <div class="titletext">
+                    <h1>Drones and Part 107 License</h1>
+                    <h1 id="secondtitle">Flying hunks of plastic in the sky</h1>
+                </div>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>Part 107 License</h1>
+            <p id="overviewtext">As of August 11, 2021, I am a certified remote pilot by the FAA (Federal Aviation Administration) under part 107. This means I am able to fly drones and other unmanned remote aircraft for commercial purposes given that the aircraft is under 55 pounds. Getting this license involved studying FAA rules and regulations, affect of weather on drones, airport operations, airspace classification, radio communication procedures, and more. After taking a 60-question exam at an FAA-approved testing center, I applied and was granted this</p>
+          </div>
+        </div>      
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>Phone Drone</h1>
+            <p id="overviewtext">When building a photography drone, your options for selecting a camera are pretty limited. You can either use a GoPro (allowing for a reasonably sized drone), or you can move up to mirrorless and DSLR cameras, which require a much larger drone. Searching for something in between, I looked to modern smartphones as another option for a drone camera. Since the gimbal market has already recognized the potential in smartphone cameras, I thought things would be as easy as strapping one of these gimbals to a drone frame. It was not. Watch the build log to learn more:</p>
+          </div>
+
+          <iframe width="50%" id="demovideo" src="https://www.youtube.com/embed/eQSe18Bmgn4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>GoPro Karma Killer</h1>
+            <p id="overviewtext">Before DJI Mavic's and Phantom's ruled the skies, people who wanted to perform amateur aerial photography would build or purchase drones without a camera and attach a GoPro. If you wanted to get fancy, you would add a gimbal on there and maybe some live video feed. GoPro eventually tried to make their own drone which, apart from a few minor issues (such as them dying during flight), was revolutionary in its foldable form factor. However, compared to modern DJI Mavic's with integrated cameras, the Karma is now considered large and unwieldy. My goal was to build a hybrid between a GoPro Karma and a DJI Mavic, combining the flexibility of a GoPro with the portability of a Mavic.</p>
+            <br />
+            <p id="overviewtext">To accomplish this, I decided to use one of <a href="https://bit.ly/3tBfWwc">these</a> shells for the DJI Phantom 3 that are meant to make the Phantom work more like a Mavic. The Phantom used to be a popular option for people who wanted to mount a GoPro+Gimbal to a drone before DJI started selling them with integrated cameras, so this shell was perfect for this application. </p>
+            <br />
+            <p id="overviewtext">In the end, the GoPro Karma Killer produced excellent, stable video with no vibration using a GoPro Hero 7 Black, all while providing a live video feed to the transmitter and not using the GoPro's built-in stabilization (to minimize video transmission latency).</p>
+          </div>
+
+          <div class="slideshow">
+                <div class="inner-box">
+                    <div class="slide-arrows">
+                        <img src="images/slidearrow/left.png" class="prev"/>
+                        <img src="images/slidearrow/right.png" class="next"/>
+                    </div>
+
+                    <div class="slides">
+                        <div class="slide current"><img src="images/drones/karmakiller1.jpg" />
+                            <p>The final result, unfolded.</p>
+                        </div>
+                        <div class="slide"><img src="images/drones/karmakiller2.jpg"/>
+                            <p>Here you can see the drone folded up. Thanks to folding propellers and arms, the drone is very portable, especially compared to the GoPro Karma (which you can see on the last slide)</p>
+                        </div>                        
+                        <div class="slide"><img src="images/drones/karmakiller3.jpg"/>
+                            <p>The insides. This thing is VERY densely packed. Flight controller, BMS, RC receiver, video transmitter, HDMI to RCA converter, GPS, OSD board, antennas, and the gimbal + gimbal controller all fit inside this compact package.</p>
+                        </div>
+                        <div class="slide"><img src="images/drones/goprokarma.jpg"/>
+                            <p>And finally, the original GoPro Karma, which I actually used to own. Unfortunately, I can't get a side-by-side since I sold the Karma a long time ago, but the size difference is clear if you compare the size of the GoPro relative to the body. </p>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- <div class="controls">
+                    <ul>
+                      <li class="circle full"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                      <li class="circle"></li>
+                    </ul>
+                  </div>-->
+                
+                <div class="thumbs"></div>
+            </div>
+        </div>
+
+        <div class="rowWrapper" id="textLeft">
+          <div class="innerRow">
+            <h1>FPV Drone</h1>
+            <p id="overviewtext">This was the first drone I built. It is a freestyle drone with 5-inch propellers that I run on either a 4s 1500mah or 4s 1800mah LiPo battery.</p>
+          </div>
+          <img src="images/drones/fpvdrone.jpg" class="rowImg" class="cantSelect">
+        </div>    
+
+    </body>
+</html>

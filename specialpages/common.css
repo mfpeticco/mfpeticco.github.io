@@ -209,6 +209,10 @@ navbar ul li > a:hover:before {
 }
 
 .rowImg {
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  max-height: 450px;
   display: inline-block;
   margin-top: -10px;
   filter: brightness(70%);
@@ -218,15 +222,14 @@ navbar ul li > a:hover:before {
   -webkit-transition: all 0.5s ease-in-out 0s;
 }
 
-.rowImg:hover {
+/*.rowImg:hover {
   filter: brightness(100%);
   -ms-filter: brightness(100%);
   transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
-}
+}*/
 
 .innerRow {
-  text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 22px;
   padding: 15px;
@@ -428,7 +431,7 @@ navbar ul li > a:hover:before {
 }
 
 .thumbs img{
-  width: 75px;
+  /*width: 75px;*/
   vertical-align: middle;
   box-sizing: border-box;
   cursor: pointer;
@@ -514,6 +517,12 @@ navbar ul li > a:hover:before {
   float: left;
 }
 
+
+
+
+
+
+
 /*mobile responsiveness */
 @media screen and (max-width: 1055px) {
 
@@ -588,7 +597,7 @@ navbar ul li > a:hover:before {
   }
 
   .rowWrapper img {
-    max-width: 250px;
+    max-width: 350px;
     margin-top: 10px;
   }
 
@@ -647,7 +656,6 @@ navbar ul li > a:hover:before {
 
   .slideshowWrapper {
     width: 97%;
-    height: auto;
   }
 
   .controls {
@@ -655,7 +663,8 @@ navbar ul li > a:hover:before {
   }
 
   .inner-box {
-    height: 400px;
+    display: inline-block;
+    height:380px;
   }
 
   .slides img {
@@ -679,11 +688,13 @@ navbar ul li > a:hover:before {
 
   .slide p {
     padding-left: 10px;
-    font-size: 14px;
+    font-size: 18px;
     font-family: "IBM Plex Sans", sans-serif;
     padding: 5px;
     position: relative;
     background: none;
+    display: inline-block;
+    box-sizing: border-box;
   }
 
   .prev:active, .next:active {

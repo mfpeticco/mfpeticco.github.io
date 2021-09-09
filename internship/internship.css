@@ -213,15 +213,15 @@ navbar ul li > a:hover:before {
   -webkit-transition: all 0.5s ease-in-out 0s;
 }
 
-.rowImg:hover {
+/*.rowImg:hover {
   filter: brightness(100%);
   -ms-filter: brightness(100%);
   transition: all 0.5s ease-in-out 0s;
   -webkit-transition: all 0.5s ease-in-out 0s;
-}
+}*/
 
 .innerRow {
-  text-align: center;
+  text-align: left;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 22px;
   padding: 15px;
@@ -424,7 +424,6 @@ navbar ul li > a:hover:before {
 }
 
 .thumbs img{
-  width: 75px;
   vertical-align: middle;
   margin-right: 13px;
   box-sizing: border-box;

@@ -228,7 +228,7 @@ td p {
 }
 
 .contactform input:focus {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #3495eb;
   transition: all 0.2s ease-in-out 0s;
   -webkit-transition: all 0.2s ease-in-out 0s;
   outline-width: 0;
@@ -252,7 +252,7 @@ td p {
 }
 
 .contactform textarea:focus {
-  border-bottom: 2px solid blue;
+  border-bottom: 2px solid #3495eb;
   transition: all 0.2s ease-in-out 0s;
   -webkit-transition: all 0.2s ease-in-out 0s;
   outline-width: 0;

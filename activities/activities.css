@@ -203,6 +203,13 @@ navbar ul li > a:hover:before {
   flex: 1;
 }
 
+.rowWrapper img {
+  width: auto;
+  max-width: 600px;
+  height: auto;
+  max-height: 450px;
+}
+
 .rowImg {
   display: inline-block;
   margin-top: -10px;
