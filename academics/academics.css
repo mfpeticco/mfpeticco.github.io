@@ -222,7 +222,19 @@ navbar ul li > a:hover:before {
   text-align: center;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 22px;
-  padding: 10px;
+  padding: 20px;
+  padding-top: 12px;
+}
+
+.innerRow p {
+  text-align: left;
+}
+
+.innerRow h1 {
+  text-align: center;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 22px;
+  padding: 20px;
   padding-top: 12px;
 }
 
@@ -290,7 +302,6 @@ navbar ul li > a:hover:before {
 .classes {
   text-align: left;
   padding-left: 30px;
-  font-style: italic;
 }
 
 .classestitle {
