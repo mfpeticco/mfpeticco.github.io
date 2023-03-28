@@ -162,15 +162,15 @@ navbar ul li > a:hover:before {
 
 .titletext h1 {
    position: relative;
-   font-size: 40px;
+   font-size: 45px;
    color: #ffffff;
    text-decoration: underline;
    font-family: "IBM Plex Sans", sans-serif;
   text-shadow:
-    -2px -2px 0 #000,
-    2px -2px 0 #000,
-    -2px 2px 0 #000,
-    2px 2px 0 #000;
+    -3px -3px 0 #000,
+    3px -3px 0 #000,
+    -3px 3px 0 #000,
+    3px 3px 0 #000;
 }
 
 #secondtitle {
