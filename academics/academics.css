@@ -94,7 +94,7 @@ navbar ul li {
   margin-right: 12px;
   margin-top: 21px;
   margin-bottom: 20px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
