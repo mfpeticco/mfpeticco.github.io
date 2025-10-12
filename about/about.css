@@ -167,7 +167,7 @@ navbar ul li > a:hover:before {
    position: relative;
    font-size: 45px;
    color: #ffffff;
-   text-decoration: underline;
+   /* text-decoration: underline; */
    text-shadow:
     -3px -3px 0 #000,
     3px -3px 0 #000,
