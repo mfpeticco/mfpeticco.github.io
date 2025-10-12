@@ -22,16 +22,16 @@
     <header>
         <navbar class="cantSelect">
             <div class="responsivepart">
-                  <a class="logo" href="index.html">Martin's Portfolio</a>
+                  <a class="logo" href="index.html">Martin Peticco</a>
 
                   <button class="navbarbutton"><i class="fa fa-bars"></i></button>
             </div>
             <ul>
                 <li><!--<li><a href="index.html">Home</a></li>--></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="projects.html">Engineering Projects</a></li>
-                <li><a href="workexperience.html">Work Experience</a></li>
                 <li><a href="academics.html">Academics</a></li>
+                <li><a href="workexperience.html">Work Experience</a></li>
+                <li><a href="projects.html">Engineering Projects</a></li>
                 <li><a href="activities.html">Activities</a></li>
                 <li><a href="contact.html">Contact Me</a></li>
             </ul>
@@ -52,7 +52,7 @@
         <div class="rowWrapper" id="textLeft">
           <div class="innerRow">
             <h1>Excelsior Robotics</h1>
-            <p id="overviewtext">During my first year of high school, I found that one of our teachers was fascilitating a new robotics team. After participating in the FIRST Tech Challenge that year, one of my friends and I were named co-fascilitators for our sophomore robotics team. We did well in competition considering the lack of financial resources and time.</p>
+            <p id="overviewtext">During my first year of high school, I found that one of our teachers was facilitating a new robotics team. After participating in the FIRST Tech Challenge that year, one of my friends and I were named co-facilitators for our sophomore robotics team. We did well in competition considering the lack of financial resources and time.</p>
           </div>
         </div>
 

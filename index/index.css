@@ -17,7 +17,7 @@ header{
 
 .logo {
   float: left;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: bold;
@@ -157,7 +157,7 @@ navbar ul li > a:hover:before {
    font-size: 50px;
    color: #ffffff;
    text-decoration: underline;
-   font-family: "IBM Plex Sans", sans-serif;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-shadow:
 		-2px -2px 0 #000,
 		2px -2px 0 #000,
@@ -171,14 +171,14 @@ navbar ul li > a:hover:before {
 }
 
 img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
   display: block;
-  filter: brightness(80%)
+  filter: brightness(40%)
 }
 
 #instruction {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 24px;
   color: #FFF;
   text-shadow:

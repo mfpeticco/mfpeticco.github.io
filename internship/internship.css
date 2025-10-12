@@ -21,7 +21,7 @@ header{
 
 .logo {
   float: left;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 17px;
   line-height: 1.2;
   font-weight: bold;
@@ -94,7 +94,7 @@ navbar ul li {
   margin-right: 12px;
   margin-top: 21px;
   margin-bottom: 20px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   transition: all 0.15s ease-in-out 0s;
   -webkit-transition: all 0.15s ease-in-out 0s;
 }
@@ -163,11 +163,11 @@ navbar ul li > a:hover:before {
 }
 
 .titletext h1 {
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    position: relative;
    font-size: 45px;
    color: #ffffff;
    text-decoration: underline;
-   font-family: "IBM Plex Sans", sans-serif;
    text-shadow:
     -3px -3px 0 #000,
     3px -3px 0 #000,
@@ -228,7 +228,7 @@ navbar ul li > a:hover:before {
 
 .innerRow {
   text-align: left;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 22px;
   padding: 15px;
   padding-top: 18px;
@@ -257,7 +257,7 @@ navbar ul li > a:hover:before {
   color: #FFFFFF;
   text-align: center;
   font-size: 18px;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 15px;
   width: 200px;
   transition: all 0.5s;
