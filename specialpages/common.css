@@ -80,11 +80,11 @@ navbar ul{
   margin: 0;
   padding: 0;
   text-align: center;
-  transition: max-height: 0.5s;
-  -webkit-transition: max-height: 0.5s;
-  -moz-transition: max-height: 0.5s;
-  -ms-transition: max-height: 0.5s;
-  -o-transition: max-height: 0.5s;
+  transition: max-height 0.5s ease-in-out 0s;
+  -webkit-transition: max-height 0.5s ease-in-out 0s;
+  -moz-transition: max-height 0.5s ease-in-out 0s;
+  -ms-transition: max-height 0.5s ease-in-out 0s;
+  -o-transition: max-height 0.5s ease-in-out 0s;
 }
 
 navbar ul li {
