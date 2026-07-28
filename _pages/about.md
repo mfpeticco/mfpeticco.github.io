@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+description: "Martin Peticco: third-year MIT EECS PhD student in the Improbable AI Lab, building dexterous robotic hands and wrists for learning-based manipulation."
 profile:
   align: right
   image: prof_pic.png

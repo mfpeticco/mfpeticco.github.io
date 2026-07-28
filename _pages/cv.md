@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: true
 nav_order: 6
-description: 
+description: "My full CV: education, research, publications, and engineering experience."
 ---
 
 <p>

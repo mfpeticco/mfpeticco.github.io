@@ -2,6 +2,7 @@
 layout: page
 permalink: /talks/
 title: Talks
+description: Research and outreach talks on robotic manipulation, dexterous hands and wrists, and the path into engineering.
 nav: true
 nav_order: 4
 ---
