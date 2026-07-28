@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-talks",
           title: "Talks",
-          description: "",
+          description: "Research and outreach talks on robotic manipulation, dexterous hands and wrists, and the path into engineering.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/talks/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "",
+          description: "My full CV: education, research, publications, and engineering experience.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
