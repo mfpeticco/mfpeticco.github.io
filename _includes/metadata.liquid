@@ -231,15 +231,18 @@
         "author":
         {
             "@type": "Person",
-            "name": "{{ author_name }}"
+            "name": "{{ author_name }}",
+            "url": "{{ site.url }}",
+            "jobTitle": "PhD Student",
+            "affiliation": {"@type": "Organization", "name": "Massachusetts Institute of Technology"},
+            "alumniOf": {"@type": "CollegeOrUniversity", "name": "California Institute of Technology"},
+            "knowsAbout": ["Robotics", "Robotic manipulation", "Dexterous manipulation", "Robot learning"]{% if sameaslinks != blank %},
+            "sameAs": {{ sameaslinks | compact | jsonify }}{% endif %}
         },
         "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
         "@type": "{% if is_blog_post %}BlogPosting{% else %}WebSite{% endif %}",
         "description": "{% if page.description %}{{ page.description }}{% else if site.description %}{{ site.description }}{% endif %}",
         "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
-        {% if sameaslinks != blank %}
-        "sameAs": {{ sameaslinks | jsonify }},
-        {% endif %}
         "name": "{{ author_name }}",
         "@context": "https://schema.org"
     }
