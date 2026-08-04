@@ -305,6 +305,20 @@ h4 {
   margin-right: 0.25rem;
 }
 
+// Wrap "Personal Projects" onto two centered lines to save navbar width.
+.navbar .navbar-nav .nav-item .nav-link[href$="/projects/"] {
+  white-space: normal;
+  text-align: center;
+  line-height: 1.05;
+  max-width: 6rem;
+}
+
+// Keep every nav item vertically centered so single-line items align
+// with the two-line "Personal Projects" item.
+.navbar .navbar-nav {
+  align-items: center;
+}
+
 // Hide the JS-injected "⌘ k" search-shortcut hint; keep the search icon itself.
 #search-toggle .nav-link {
   font-size: 0; // hides the JS-injected "⌘ k" text
