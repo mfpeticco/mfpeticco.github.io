@@ -66,7 +66,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.open("https://dexwrist.csail.mit.edu", "_blank");
+            window.open("https://martinpeticco.com/dexwrist/", "_blank");
           
         },
       },{id: "news-accepted-to-the-mit-marine-robotics-summer-school-mit-portugal",
