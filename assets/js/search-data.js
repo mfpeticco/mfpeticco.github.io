@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-dexwrist-a-robotic-wrist-for-constrained-and-dynamic-manipulation",
+        },{id: "post-karma-a-kinematic-metric-for-fine-manipulation-ability-in-robotic-hands",
+        
+          title: 'KaRMA: A Kinematic Metric for Fine Manipulation Ability in Robotic Hands <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "Project page for KaRMA, a kinematic metric for fine in-hand manipulation ability in robotic hands.",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://martinpeticco.com/karma/", "_blank");
+          
+        },
+      },{id: "post-dexwrist-a-robotic-wrist-for-constrained-and-dynamic-manipulation",
         
           title: 'DexWrist: A Robotic Wrist for Constrained and Dynamic Manipulation <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
