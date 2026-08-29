@@ -10,6 +10,15 @@ nav_order: 4
 ## Research Talks
 
 <div class="entry" markdown="1">
+### DexWrist and KaRMA: Hardware Priors for Dexterous Robotic Manipulation
+*August 2026 · German Aerospace Center (DLR), Institute of Robotics and Mechatronics*
+
+<div class="exp-photo">{% include figure.liquid loading="eager" path="assets/img/talks/dlr.jpg" class="img-fluid rounded z-depth-1" zoomable=true %}</div>
+
+An invited talk at DLR, hosted by Sebastian Wolf, on hardware priors for dexterous manipulation, covering both the DexWrist robotic wrist and the KaRMA dexterity metric.
+</div>
+
+<div class="entry" markdown="1">
 ### DexWrist at NEMS 2026
 *June 2026 · New England Manipulation Symposium*
 
