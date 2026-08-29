@@ -461,10 +461,9 @@ h4 {
 .navbar {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
   border-bottom: none;
-  background-color: var(--global-bg-color);
-  opacity: 0.9;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background-color: color-mix(in srgb, var(--global-bg-color) 85%, transparent);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
 }
 
 .navbar .dropdown-menu,
