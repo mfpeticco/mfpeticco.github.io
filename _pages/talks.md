@@ -37,17 +37,21 @@ Presented DexWrist at the RSS 2025 Workshop on Dexterous Manipulation, including
 </div>
 
 <div class="entry" markdown="1">
-### "Sumo Robots" — SpaceX
-*2024*
+### "Robots that Fight, Robots that Fly, and Robots that Place Dominos" — NASA JPL
+*April 2023 · JPL Seminar*
 
-An internal tech talk at SpaceX on the Caltech ME72 sumo robot project.
+<div class="exp-photo">{% include figure.liquid loading="eager" path="assets/img/talks/jpl.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}</div>
+
+A talk to the JPL robotics community on combat robotics, drone design, and the ME134 domino-placing robot.
 </div>
 
 <div class="entry" markdown="1">
-### "Robots that Fight, Robots that Fly, and Robots that Place Dominos" — NASA JPL
-*2023*
+### "The Phone Drone" — SpaceX
+*January 2023 · SpaceX On-Site Interview*
 
-A talk to the JPL robotics community on combat robotics, drone design, and the ME134 domino-placing robot.
+<div class="exp-photo">{% include figure.liquid loading="eager" path="assets/img/talks/spacex.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}</div>
+
+A technical presentation on the Phone Drone, a photography drone built around a gimbal-mounted smartphone camera.
 </div>
 
 ## Outreach
