@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post about-page">
   <header class="post-header">
-    <h1 class="post-title">
+    <h1 class="post-title about-name">
       {% if site.title == 'blank' %}
         {{ site.first_name }} {{ site.middle_name }}
         {{ site.last_name }}
@@ -77,4 +77,16 @@ layout: default
       {% include newsletter.liquid center=true %}
     {% endif %}
   </article>
+  <script>
+    (function () {
+      var name = document.querySelector('.about-name');
+      if (!name) return;
+      new IntersectionObserver(
+        function (entries) {
+          document.body.classList.toggle('show-brand', !entries[0].isIntersecting);
+        },
+        { rootMargin: '-70px 0px 0px 0px' }
+      ).observe(name);
+    })();
+  </script>
 </div>

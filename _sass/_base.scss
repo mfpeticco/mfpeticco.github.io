@@ -534,6 +534,30 @@ h4 {
   pointer-events: none;
 }
 
+// About page: the name in Helvetica Neue Thin (the rest of the site is HN Regular).
+.about-name {
+  font-weight: 100;
+}
+
+// About page: tighten the space before the first section (News). The global 3.5rem
+// section-header margin is too much directly under the intro + headshot.
+.about-page article > h2:first-of-type {
+  margin-top: 1.75rem;
+}
+
+// About page only: the big name doubles as the navbar brand, so hide the brand until you
+// scroll past the name, then fade it in — no duplicate name at the top. :has() scopes this
+// to the about page; every other page keeps its brand visible.
+body:has(.about-name) .navbar-brand {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+body:has(.about-name).show-brand .navbar-brand {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 // --- Old-site navbar: translucent light bar, soft shadow, no hard border ---
 .navbar {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);

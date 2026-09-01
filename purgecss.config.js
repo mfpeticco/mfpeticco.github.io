@@ -7,6 +7,6 @@ module.exports = {
   // "Personal Projects" rule targets [href$="/projects/"], which purgecss
   // strips because it can't see the selector referenced in the HTML.
   safelist: {
-    greedy: [/nav-link/],
+    greedy: [/nav-link/, /show-brand/],
   },
 };
