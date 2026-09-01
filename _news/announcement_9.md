@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper [*DexWrist: A Robotic Wrist for Constrained and Dynamic Manipulation*](https://martinpeticco.com/dexwrist/) was accepted to **IEEE Robotics and Automation Letters (RA-L)**.
+[*DexWrist: A Robotic Wrist for Constrained and Dynamic Manipulation*](https://martinpeticco.com/dexwrist/) was accepted to **IEEE Robotics and Automation Letters (RA-L)**.

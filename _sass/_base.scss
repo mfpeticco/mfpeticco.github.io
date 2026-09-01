@@ -505,6 +505,35 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+// News feed: cap the height and scroll it, with a visible scrollbar + a soft bottom
+// fade as a cue that there are more items below.
+.news {
+  position: relative;
+}
+.news .table-responsive {
+  max-height: 20rem;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--global-divider-color) transparent;
+}
+.news .table-responsive::-webkit-scrollbar {
+  width: 8px;
+}
+.news .table-responsive::-webkit-scrollbar-thumb {
+  background: var(--global-divider-color);
+  border-radius: 4px;
+}
+.news::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2rem;
+  background: linear-gradient(to bottom, transparent, var(--global-bg-color));
+  pointer-events: none;
+}
+
 // --- Old-site navbar: translucent light bar, soft shadow, no hard border ---
 .navbar {
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
