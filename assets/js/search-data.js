@@ -129,11 +129,6 @@ ninja.data = [{
           description: "A 5-DoF arm that lays out user-drawn domino patterns",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_domino_robot/";
-            },},{id: "projects-drones-part-107",
-          title: 'Drones + Part 107',
-          description: "A phone-camera drone and an ultra-compact GoPro Karma competitor",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_drones/";
             },},{id: "projects-3-axis-camera-gimbal",
           title: '3-Axis Camera Gimbal',
           description: "A DIY brushless phone stabilizer, for a fraction of the price",
@@ -144,6 +139,21 @@ ninja.data = [{
           description: "One-off parts and machines for everything else",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_3d_printing/";
+            },},{id: "projects-fpv-drone",
+          title: 'FPV Drone',
+          description: "My first build, a 5-inch freestyle FPV quad",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fpv_drone/";
+            },},{id: "projects-gopro-karma-killer",
+          title: 'GoPro Karma Killer',
+          description: "An ultra-compact, foldable GoPro drone built to rival the GoPro Karma",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gopro_karma_killer/";
+            },},{id: "projects-phone-drone",
+          title: 'Phone Drone',
+          description: "A photography drone built around a gimbal-mounted smartphone",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/phone_drone/";
             },},{
         id: 'social-cv',
         title: 'CV',
