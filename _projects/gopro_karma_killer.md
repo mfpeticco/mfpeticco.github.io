@@ -1,36 +1,12 @@
 ---
 layout: page
-title: Drones + Part 107
-description: A phone-camera drone and an ultra-compact GoPro Karma competitor
+title: GoPro Karma Killer
+description: An ultra-compact, foldable GoPro drone built to rival the GoPro Karma
 img: assets/img/projects/goprodrone.jpg
-importance: 3
+importance: 3.1
 timeframe: 2020 – 2021
 category: builds
 ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/drones/phonedronebanner.jpg" title="Phone drone" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-## Part 107 License
-
-As of August 11, 2021, I am a certified remote pilot by the FAA (Federal Aviation Administration) under part 107. This gives me permission to legally fly drones and other unmanned remote aircraft for commercial purposes given that the aircraft is under 55 pounds. Getting this license involved going to an FAA testing center and taking a 60-question exam on FAA rules and regulations, affect of weather on drones, airport operations, airspace classification, radio communication procedures, and more.
-
-## Phone Drone
-
-When building a photography drone, your options for selecting a camera are pretty limited. You can either use a GoPro (allowing for a reasonably sized drone), or you can move up to mirrorless and DSLR cameras, which require a much larger drone. Searching for something in between, I looked to modern smartphones as another option for a drone camera. Since the gimbal market has already recognized the potential in smartphone cameras, I thought things would be as easy as strapping one of these gimbals to a drone frame. It was not. Watch the build log to learn more:
-
-<div class="row justify-content-center">
-    <div class="col-sm-10 mt-3 mt-md-0">
-        <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eQSe18Bmgn4" title="Phone drone build log" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
-    </div>
-</div>
-
-## GoPro Karma Killer
 
 Before DJI Mavic's and Phantom's ruled the skies, people who wanted to perform amateur aerial photography would build or purchase drones without a camera and attach a GoPro. If you wanted to get fancy, you would add a gimbal on there and maybe some live video feed. GoPro eventually tried to make their own drone which, apart from a few minor issues (such as them falling out of the sky during flight), was revolutionary in its foldable form factor. However, compared to modern DJI Mavic's with integrated cameras, the Karma is now considered large and unwieldy. My goal was to build a hybrid between a GoPro Karma and a DJI Mavic, combining the flexibility of a GoPro with the portability of a Mavic.
 
@@ -73,13 +49,3 @@ In the end, the GoPro Karma Killer produced excellent, stable video with no vibr
     </div>
 </div>
 <div class="caption">And finally, the original GoPro Karma, which I actually used to own. Unfortunately, I can't get a side-by-side since I sold the Karma a long time ago, but the size difference is clear if you compare the size of the GoPro relative to the body.</div>
-
-## FPV Drone
-
-This was the first drone I built. It is a freestyle FPV drone with 5-inch propellers that I run on either a 4s 1500mah or 4s 1800mah LiPo battery.
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/projects/drones/fpvdrone.jpg" title="FPV drone" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>

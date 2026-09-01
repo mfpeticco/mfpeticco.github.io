@@ -381,6 +381,59 @@ h4 {
   }
 }
 
+// Talk entries without a photo: project link button(s) sit where the photo would.
+.talk-projects {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.talk-project-btn {
+  display: block;
+  text-align: center;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+.talk-project-btn:hover {
+  border-color: var(--global-theme-color);
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+// Media entries: text column + media (photo or project buttons) laid out as a flex
+// row, with the media vertically centered against the whole entry (title + date + body).
+.entry.entry--media {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.entry--media > .entry-main {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+.entry--media > .exp-photo,
+.entry--media > .talk-projects {
+  flex: 0 0 32%;
+  align-self: center;
+  float: none;
+  width: auto;
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .entry.entry--media {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+  }
+  .entry--media > .exp-photo,
+  .entry--media > .talk-projects {
+    flex-basis: auto;
+  }
+}
+
 // Hide the JS-injected "⌘ k" search-shortcut hint; keep the search icon itself.
 #search-toggle .nav-link {
   font-size: 0; // hides the JS-injected "⌘ k" text
@@ -422,17 +475,12 @@ h4 {
   font-weight: 600;
 }
 
-// Inline experience/talks photos: float beside the text on desktop, stack on mobile.
-.exp-photo {
-  margin-bottom: 1rem;
-}
-@media (min-width: 768px) {
-  .exp-photo {
-    float: right;
-    width: 32%;
-    margin-left: 1.5rem;
-    margin-top: 0.25rem;
-  }
+// Inline experience/talks photos are flex items inside .entry--media; their width and
+// vertical centering come from that flex row. This just makes the image fill its column.
+.exp-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 // Per-item vertical separator (like the Publications page's left accent bar).

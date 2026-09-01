@@ -34,7 +34,7 @@ Check out some of my previous 3d printed works down below.
         {% include figure.liquid loading="eager" path="assets/img/projects/3dprinting/karmakiller3.jpg" title="Phone Drone parts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">Many of the components on my "Phone Drone" are 3d printed, including using photogrammetry to design a custom gimbal mount. Read more about it on my drones page!</div>
+<div class="caption">Many of the components on my "Phone Drone" are 3d printed, including using photogrammetry to design a custom gimbal mount. Read more on the <a href="{{ '/projects/phone_drone/' | relative_url }}">Phone Drone page</a>.</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -48,7 +48,7 @@ Check out some of my previous 3d printed works down below.
         {% include figure.liquid loading="eager" path="assets/img/projects/3dprinting/phonedrone.jpg" title="GoPro Karma Killer parts" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">Many of the components on my "GoPro Karma Killer" drone are 3d printed. Read more about it on my drones page!</div>
+<div class="caption">Many of the components on my "GoPro Karma Killer" drone are 3d printed. Read more on the <a href="{{ '/projects/gopro_karma_killer/' | relative_url }}">GoPro Karma Killer page</a>.</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
