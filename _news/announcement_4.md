@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented **DexWrist** at the **RSS 2025 Dexterous Manipulation Workshop**.
+Presented **DexWrist** at the **RSS 2025 Hardware Intelligence** and **Dexterous Manipulation** workshops.

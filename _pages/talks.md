@@ -31,10 +31,10 @@ Presented DexWrist, a compliant, back-drivable robotic wrist for constrained and
 
 <div class="entry entry--media">
 <div class="entry-main" markdown="1">
-### DexWrist at the RSS 2025 Dexterous Manipulation Workshop
+### DexWrist at Two RSS 2025 Workshops
 *June 2025 · Robotics: Science and Systems*
 
-Presented DexWrist at the RSS 2025 Workshop on Dexterous Manipulation, including policy-rollout results on constrained tasks such as reaching into a packed fridge.
+Presented DexWrist at the RSS 2025 Hardware Intelligence and Dexterous Manipulation workshops, including policy-rollout results on constrained tasks such as reaching into a packed fridge.
 </div>
 <div class="exp-photo">{% include figure.liquid loading="eager" path="assets/img/talks/rss.png" class="img-fluid rounded z-depth-1" zoomable=false %}</div>
 </div>
