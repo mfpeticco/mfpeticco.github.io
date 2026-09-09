@@ -5,6 +5,7 @@
   --mp-brand: #714195;
   --mp-brand-hover: #4f286f;
   --mp-panel: #f7f5fa;
+  --mp-pale-gradient: linear-gradient(55deg, #f6e3f8 0%, #efeafa 48%, #e4f2fd 100%);
   --mp-gradient: linear-gradient(55deg, #e5afec 0%, #d0c3f0 48%, #b2dbf8 100%);
   --global-text-color: #18151c;
   --global-text-color-light: #625c69;
@@ -32,7 +33,7 @@ html body {
   -webkit-font-smoothing: antialiased;
 }
 
-.post-title,
+h1.post-title,
 .about-name {
   font-size: clamp(2rem, 4.4vw, 3.1rem);
   font-weight: 300;
@@ -90,8 +91,8 @@ summary:focus-visible,
 }
 
 .navbar {
-  --global-theme-color: var(--mp-brand);
-  --global-hover-color: var(--mp-brand-hover);
+  --global-theme-color: var(--global-text-color);
+  --global-hover-color: var(--global-text-color);
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: color-mix(in srgb, var(--global-bg-color) 95%, transparent);
@@ -99,9 +100,9 @@ summary:focus-visible,
 
 .navbar.navbar-light .navbar-brand,
 .navbar.navbar-light .navbar-nav .nav-item .nav-link {
-  color: var(--mp-brand);
+  color: var(--global-text-color);
 
-  &:hover { color: var(--mp-brand-hover); }
+  &:hover { color: var(--global-text-color); }
 }
 
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
@@ -147,33 +148,43 @@ blockquote:not(.block-tip):not(.block-warning):not(.block-danger) {
   text-align: left;
 }
 
-// Shared action-button treatment, including MDB outline variants and dark mode.
-// Keep the label dark on the pale gradient in both themes.
-body .btn,
-body .btncv,
-.publications ol.bibliography li .links a.btn,
-.talk-project-btn,
-.calendar-toggle-btn,
-.post .contact-form button,
-.newsletter-form-button,
-.newsletter-loading-button,
-.newsletter-back-button {
-  border: 1px solid transparent !important;
-  border-radius: 4px;
-  background: var(--mp-gradient) !important;
+// Venue labels share the pale title-surface colors from the design language.
+// Keep their text dark in both themes, including linked and unlinked labels.
+.publications ol.bibliography li .abbr abbr.badge {
+  background: var(--mp-pale-gradient) !important;
   color: #18151c !important;
+  box-shadow: none;
+  border-radius: 4px;
+
+  a, a:visited, a:hover, div {
+    color: inherit;
+  }
+}
+
+// Resource actions remain plain outlined buttons.
+.publications ol.bibliography li .links a.btn,
+.talk-project-btn {
+  border-color: var(--global-divider-color);
+  border-radius: 4px;
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
   box-shadow: none;
   font-weight: 700;
   text-transform: none;
 
-  span, i { color: inherit; }
-
-  &:hover,
-  &:active {
-    filter: brightness(0.96);
-    opacity: 1;
-    text-decoration: none;
+  &:hover {
+    background: var(--mp-panel);
+    border-color: var(--global-theme-color);
+    color: var(--global-hover-color);
   }
+}
+
+.calendar-toggle-btn {
+  background: var(--global-theme-color);
+  color: var(--global-bg-color);
+  border-radius: 4px;
+
+  &:hover { background: var(--global-hover-color); }
 }
 
 @media (max-width: 600px) {
