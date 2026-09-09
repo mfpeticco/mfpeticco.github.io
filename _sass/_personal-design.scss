@@ -2,6 +2,8 @@
 // Source: Projects/Personal Design Language/design-tokens.css.
 // Keep this site's reading width and layouts; gradients only mark small details.
 :root {
+  --mp-brand: #714195;
+  --mp-brand-hover: #4f286f;
   --mp-panel: #f7f5fa;
   --mp-gradient: linear-gradient(55deg, #e5afec 0%, #d0c3f0 48%, #b2dbf8 100%);
   --global-text-color: #18151c;
@@ -10,6 +12,8 @@
 }
 
 html[data-theme="dark"] {
+  --mp-brand: #d0afe8;
+  --mp-brand-hover: #e5c9f7;
   --mp-panel: #25212b;
   --global-bg-color: #18151c;
   --global-card-bg-color: #201c25;
@@ -77,18 +81,27 @@ textarea:focus-visible,
 select:focus-visible,
 summary:focus-visible,
 [tabindex]:focus-visible {
-  outline: 2px solid var(--global-theme-color);
+  outline: 2px solid var(--mp-brand);
   outline-offset: 4px;
 }
 
 .post article li::marker {
-  color: var(--global-theme-color);
+  color: var(--mp-brand);
 }
 
 .navbar {
+  --global-theme-color: var(--mp-brand);
+  --global-hover-color: var(--mp-brand-hover);
   box-shadow: none;
   border-bottom: 1px solid var(--global-divider-color);
   background-color: color-mix(in srgb, var(--global-bg-color) 95%, transparent);
+}
+
+.navbar.navbar-light .navbar-brand,
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: var(--mp-brand);
+
+  &:hover { color: var(--mp-brand-hover); }
 }
 
 .navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
@@ -134,29 +147,33 @@ blockquote:not(.block-tip):not(.block-warning):not(.block-danger) {
   text-align: left;
 }
 
+// Shared action-button treatment, including MDB outline variants and dark mode.
+// Keep the label dark on the pale gradient in both themes.
+body .btn,
+body .btncv,
 .publications ol.bibliography li .links a.btn,
-.talk-project-btn {
-  border-color: var(--global-divider-color);
+.talk-project-btn,
+.calendar-toggle-btn,
+.post .contact-form button,
+.newsletter-form-button,
+.newsletter-loading-button,
+.newsletter-back-button {
+  border: 1px solid transparent !important;
   border-radius: 4px;
-  background: var(--global-bg-color);
-  color: var(--global-theme-color);
+  background: var(--mp-gradient) !important;
+  color: #18151c !important;
   box-shadow: none;
   font-weight: 700;
   text-transform: none;
 
-  &:hover {
-    background: var(--mp-panel);
-    border-color: var(--global-theme-color);
-    color: var(--global-hover-color);
+  span, i { color: inherit; }
+
+  &:hover,
+  &:active {
+    filter: brightness(0.96);
+    opacity: 1;
+    text-decoration: none;
   }
-}
-
-.calendar-toggle-btn {
-  background: var(--global-theme-color);
-  color: var(--global-bg-color);
-  border-radius: 4px;
-
-  &:hover { background: var(--global-hover-color); }
 }
 
 @media (max-width: 600px) {
