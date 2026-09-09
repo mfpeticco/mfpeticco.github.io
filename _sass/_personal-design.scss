@@ -148,6 +148,16 @@ blockquote:not(.block-tip):not(.block-warning):not(.block-danger) {
   text-align: left;
 }
 
+// Project photos keep their proportions and fit within a comfortable viewport.
+.project-page article figure img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: min(100%, 680px);
+  max-height: min(70vh, 560px);
+  margin-inline: auto;
+}
+
 // Venue labels share the pale title-surface colors from the design language.
 // Keep their text dark in both themes, including linked and unlinked labels.
 .publications ol.bibliography li .abbr abbr.badge {
