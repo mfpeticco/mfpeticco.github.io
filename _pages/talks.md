@@ -11,6 +11,16 @@ nav_order: 4
 
 <div class="entry entry--media">
 <div class="entry-main" markdown="1">
+### KaRMA at IROS 2026
+*September 2026 · IEEE/RSJ International Conference on Intelligent Robots and Systems, Pittsburgh*
+
+Presented KaRMA, a kinematic metric that measures how far and how consistently a robotic hand can translate and rotate a spherical object without regrasping, using only the hand's kinematic model.
+</div>
+<div class="exp-photo">{% include figure.liquid loading="eager" path="assets/img/talks/iros.jpg" class="img-fluid rounded z-depth-1" zoomable=false %}</div>
+</div>
+
+<div class="entry entry--media">
+<div class="entry-main" markdown="1">
 ### DexWrist and KaRMA: Hardware Priors for Dexterous Robotic Manipulation
 *August 2026 · German Aerospace Center (DLR), Institute of Robotics and Mechatronics*
 
